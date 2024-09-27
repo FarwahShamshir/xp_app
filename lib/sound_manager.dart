@@ -6,7 +6,7 @@ class SoundManager {
 
   void playSound(int soundNumber) async {
     // Load the asset sound
-    await _player.setAsset('assets/not$soundNumber.mp3');
+    await _player.setAsset('assets/M$soundNumber.mp3');
     // Play the loaded sound
     _player.play();
   }
